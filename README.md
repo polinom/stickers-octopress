@@ -2,7 +2,7 @@
 
 Plugin to display your stickers (logos, images) of your favorite brands in the sidebar of your Octopress site.
 
-Live example at <a href="TODO">TODO</a>
+Live example at <a href="http://polynec.com">polynec.com</a>
 
 
 ##Installation:
@@ -18,11 +18,20 @@ Live example at <a href="TODO">TODO</a>
 
         default_asides: [custom/asides/stickers.html, custom/asides/about.html, asides/twitter.html, asides/recent_posts.html]
 
-5. Create folder in your `source/images/` directory named `stickers`. Folowing path should exist in your project - `source/images/stickers/`. This is a place where you going to place your stickers. 
+5. Create folder in your `source/images/` directory named `stickers`. Following path should exist in your project - `source/images/stickers/`. This is a place where you going to place your stickers. 
 
 
 ## Usage
-To add stiker to you Octopress site, simply drop images in directory `source/images/stickers/`. Size of images metters. Therefore, put properly croped images.
+To add stiker to you Octopress site, simply drop images into this directory `source/images/stickers/`. Size of images meters. Therefore, put properly cropped images. If all images have the same size, than you aside bar look more accurate. There are some prepared stickers for you in this repository. Take a look in folder `stickers`.
+
+## Make sticker as a link
+To turn your stickers into a link to some website, rename your image to follow format {website}.{extension} For example, if you want your sticker to be linked to `http://linux.org/` than name your image to `linux.org.jpg` or `linux.org.png`. `http://` will be prepended and image will be wraped in amchor tag where `href` attribute equals to `http://linux.org/`.
 
 
-_Please feel free to submit you commits. I would appreciate if anybody would finish todos, which you can find in the source code_ 
+## Sticker database
+If you want to add your sticker to this repository, then consider these simple requirements. Sticker is an image `88 X 88` pixels high and width, `png` format preferable. If you want your sticker to be rendered as a link to a website, then name your image as advised. 
+
+
+
+_Please feel free to submit your pull requests. I would appreciate if anybody would finish todos, which you can find in the source code_ 
+

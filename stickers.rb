@@ -25,9 +25,9 @@ module Jekyll
         # otherwise just build a img tag
         if url_part_name.size >= 2
           url_to = "http://#{url_part_name.join('.')}"
-          html << "<a href='#{url_to}'><img src='/images/stickers/#{sticker}'></a>"
+          html << "<a href='#{url_to}'><img style='padding: .5em; margin: .5em;' src='/images/stickers/#{sticker}'></a>"
         else
-          html << "<img src='/images/stickers/#{sticker}' >"
+          html << "<img style='padding: .5em; margin: .5em;' src='/images/stickers/#{sticker}' >"
         end
       end
       html
