@@ -9,7 +9,7 @@ Live example at <a href="http://polynec.com">polynec.com</a>
 
 1. Copy `stickers.html` to your `source/_includes/custom/asides` directory.
 2. Copy `stickers.rb` to your `plugins` directory.
-3. Optionally update your `_config.yml` file to include a `stickers_title` variable defaults is `"I support"`. Example below which is also in the provided _config.yml file:
+3. Optionally update your `_config.yml` file to include a `stickers_title` variable defaults is `"I support"`. Example below which is also in the provided `_config.yml` file:
 
         # Stickers  
         stickers_title: "I support"
